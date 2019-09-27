@@ -1,5 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar-header,
 .nav.navbar-nav.navbar-right {
   display: none;
+}
+
+#header {
+  width: 1200px;
+  margin: 0 auto;
+  height: 800px;
+}
+
+#header ul li {
+  display: inline-block;
+}
+
+#header ul li img {
+  width: 100px;
+}
+
+#header ul li a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=site.css.map */

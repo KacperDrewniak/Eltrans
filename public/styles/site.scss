@@ -21,9 +21,30 @@
 // // Add your own site style includes here
 // @import "site/layout";
 
-
+* {
+	margin: 0;
+	padding: 0;
+}
 
 .navbar-header,
 .nav.navbar-nav.navbar-right {
 	display: none;
+}
+
+#header {
+	width: 1200px;
+	margin: 0 auto;
+	height: 800px;
+
+	ul li {
+		img {
+			width: 100px;
+		}
+
+		display: inline-block;
+
+		a {
+			text-decoration: none;
+		}
+	}
 }
